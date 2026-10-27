@@ -1,4 +1,3 @@
-```yaml
 name: Mini DevOps CI/CD
 
 on:
@@ -150,4 +149,4 @@ jobs:
           push: true
           tags: ${{ steps.metadata.outputs.tags }}
           labels: ${{ steps.metadata.outputs.labels }}
-```
+
